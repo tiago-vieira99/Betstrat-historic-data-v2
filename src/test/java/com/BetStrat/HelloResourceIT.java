@@ -1,4 +1,4 @@
-package com.api;
+package com.BetStrat;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
