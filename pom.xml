@@ -213,7 +213,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.0</version>
+                <version>3.3.0</version>
                 <configuration>
                     <archive>
                         <manifest>
@@ -236,7 +236,7 @@
             </activation>
             <properties>
                 <skipITs>false</skipITs>
-                <quarkus.native.enabled>true</quarkus.native.enabled>
+                <quarkus.native.enabled>false</quarkus.native.enabled>
             </properties>
         </profile>
     </profiles>
